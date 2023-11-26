@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Blog',
+    absolute: 'Blog', // this will now ignore any suffix/prefix from the parent.
   },
 };
 
