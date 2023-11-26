@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
+    absolute: '', // If you want to provide a title that ignores
     default: 'Next.js Tutorial - Codevolution', // fallback title for child elements that don't have a title
     template: '%s | Codevolution', // Adds a prefix / suffix.  Applies only to child elements.
   },

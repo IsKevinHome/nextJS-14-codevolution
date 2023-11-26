@@ -14,6 +14,7 @@ export default function ProductList() {
       </h2>
       <h2>
         <Link href="products/3" replace>
+          {/* replace prop replaces the current history state, instead of adding a new URL to the stack. */}
           Product 3
         </Link>
       </h2>
