@@ -17,9 +17,13 @@ export default function AuthLayout({ children }) {
 
   return (
     <div>
-      {/* <div>
-        <input value={input} onChange={(e) => setInput(e.target.value)} />
-      </div> */}
+      <div>
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          style={{ border: '1px solid' }}
+        />
+      </div>
       {navLinks.map((link) => {
         const isActive = pathname.startsWith(link.href);
 
